@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+.signToSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+    width: 300px;
+    background-color: #F5EFFF; /* Soft background for the form */
+    padding: 30px;
+    border-radius: 20px;
+    text-align: start;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+input {
+    background-color: white;
+    border: 1px solid #CDC1FF; /* Light border color for inputs */
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #A594F9; /* Highlight border color on focus */
+    outline: none; /* Remove default outline */
+    /* box-shadow: 0 0 5px rgba(169, 148, 249, 0.9); Soft glow effect */
+}
+
+input[type='submit'] {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: #A594F9; /* Vibrant button color */
+    transition: box-shadow 0.4s ease-in-out, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #8B7BF2; /* Darker shade on hover for depth */
+    box-shadow: 0 0 8px rgba(169, 148, 249, 0.6),
+                0 0 12px rgba(169, 148, 249, 0.6);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #A594F9; /* Match label color to button for consistency */
+}
+
+.regLog:hover {
+    text-decoration: underline;
+    color: #A594F9; /* Subtle hover effect for links */
+}

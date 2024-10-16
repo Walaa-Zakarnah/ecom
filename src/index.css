@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  color: #31473A;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
